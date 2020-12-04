@@ -28,6 +28,7 @@ const useStyles = makeStyles(theme => ({
   },
   toolbarTitle: {
     flexGrow: 1,
+    fontWeight: "bold",
   },
   drawerList: {
     width: 250,
@@ -51,9 +52,9 @@ const Header = ({ companyName }: Props) => {
   const navLinks = [
     { displayText: "Home", link: "#" },
     { displayText: "Services", link: "#services" },
-    { displayText: "Apps", link: "#apps" },
-    { displayText: "Testimonials", link: "#testimonials" },
-    { displayText: "Blog", link: "#blog" },
+    { displayText: "About", link: "#apps" },
+    { displayText: "Contact", link: "#testimonials" },
+    { displayText: "COVID-19 Home Monitoring", link: "#blog" },
   ]
 
   return (
@@ -76,7 +77,7 @@ const Header = ({ companyName }: Props) => {
             color="inherit"
             className={classes.toolbarTitle}
           >
-            vHealth
+            TELECARE-USA
           </Typography>
 
           <Hidden xsDown>

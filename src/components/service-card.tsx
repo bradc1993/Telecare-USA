@@ -18,10 +18,10 @@ const ServiceCard = ({ service, ...props }: IProps) => {
   return (
     <Card>
       <CardContent style={{ textAlign: "start", minHeight: 200 }}>
-        <div style={{ width: 80, padding: 10 }}>
+        <div style={{ width: 80, padding: 10, margin: "0 auto" }}>
           <Image alt={service.title} filename={service.image} />
         </div>
-        <Typography variant="h6" color="inherit">
+        <Typography variant="h6" color="inherit" align="center">
           {service.title}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Vhealth - Open source gatsby template`,
-    description: `Free website template for a health care startup.`,
-    author: `Shantanu Deshmukj`,
+    title: `Telecare-USA`,
+    description: `Home Tele-Monitoring Equipment Rental For Physicians`,
+    author: `Brad Carter`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

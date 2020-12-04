@@ -3,7 +3,8 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 import Zoom from "@material-ui/core/Zoom"
 import Fab from "@material-ui/core/Fab"
-import GetAppIcon from "@material-ui/icons/GetApp"
+// import GetAppIcon from "@material-ui/icons/GetApp"
+import MessageIcon from "@material-ui/icons/Message"
 
 const useStyles = makeStyles(theme => ({
   fab: {
@@ -29,7 +30,7 @@ const FabDownload = () => {
         href="https://github.com/shantanu-deshmukh/vhealth-gatsby"
         target="_blank"
       >
-        <GetAppIcon />
+        <MessageIcon />
       </Fab>
     </Zoom>
   )

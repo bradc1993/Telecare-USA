@@ -10,43 +10,23 @@ const Services = () => {
     {
       id: 1,
       image: "search-doctor-icon.png",
-      title: "Search Doctor",
+      title: "Blood Pressure Monitoring",
       description:
-        "Choose your doctor from thousands of specialist, general, and trusted hospitals.",
+        "Home monitoring without having to spend thousands buying monitors for patients who have smartphones and those who don't.",
     },
     {
       id: 2,
       image: "online-pharmacy-icon.png",
-      title: "Online Pharmacy",
+      title: "Patient Tracking & Alerts",
       description:
-        "Buy your medicines with our mobile application with a simple delivery system.",
+        "Patient data will be immediately uploaded into a HIPAA-compliant system so that your clinical staff can be alerted about high or low numbers.",
     },
     {
       id: 3,
       image: "consultation-icon.png",
-      title: "Consultation",
+      title: "Health Management",
       description:
-        "Free consultation with our trusted doctors and get the best recommendations.",
-    },
-    {
-      id: 4,
-      image: "details-info-icon.png",
-      title: "Detail Info",
-      description:
-        "Free consultation with our trusted doctors and get the best recommendations.",
-    },
-    {
-      id: 5,
-      image: "emergency-care-icon.png",
-      title: "Emergency Care",
-      description:
-        "You can get 24/7 urgent care for yourself or your children and your lovely family.",
-    },
-    {
-      id: 6,
-      image: "tracking-icon.png",
-      title: "Tracking",
-      description: "Track and save your medical history and health data.",
+        "Online HIPAA compliant tracking and numbers. Better management for diabetes, hypertension, congestive heart failure and more.",
     },
   ]
 
@@ -70,12 +50,9 @@ const Services = () => {
       >
         <Typography variant="h5">Our Services</Typography>
         <Bar />
-        <Typography variant="subtitle1" style={{ margin: 30 }}>
-          We provide to you the best choices for you. Adjust it to your health
-          needs and make sure your undergo treatment with our highly qualified
-          doctors you can consult with us which type of service is suitable for
-          your health
-        </Typography>
+        {/* <Typography variant="subtitle1" style={{ margin: 30 }}>
+          RPM services for physician or NPP clinics.
+        </Typography> */}
       </Grid>
 
       {services.map(service => (
@@ -86,7 +63,7 @@ const Services = () => {
 
       <Grid item xs={12}>
         <Button variant="outlined" color="primary" size="large">
-          Learn More
+          How It Works
         </Button>
       </Grid>
     </Grid>

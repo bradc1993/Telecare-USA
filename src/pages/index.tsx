@@ -18,10 +18,10 @@ const IndexPage = () => (
         <SEO title="Home" />
         <Hero />
         <Services />
-        <AboutPanel />
         <AppsPanel />
+        <AboutPanel />
         {/* <Testimonials /> */}
-        <Articles />
+        {/* <Articles /> */}
       </Layout>
     </ThemeProvider>
   </React.Fragment>

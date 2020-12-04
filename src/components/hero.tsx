@@ -19,15 +19,15 @@ const Hero = () => {
         style={{ paddingLeft: 40, paddingRight: 40 }}
       >
         <Typography variant="h4" color="inherit" style={{ marginBottom: 20 }}>
-          Virtual Healthcare for you
+          Welcome to Telecare-USA
         </Typography>
 
         <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
-          We provide progressive, and affordable healthcare, accessible on
-          mobile and online for everyone
+          We offer home telemonitoring equipment rental for physician clinics to help improve patient compliance & reduce healthcare costs through
+          accountability.
         </Typography>
         <Button variant="contained" color="primary" size="large">
-          Consult Today
+          Schedule a free online demo
         </Button>
       </Grid>
       <Hidden xsDown>

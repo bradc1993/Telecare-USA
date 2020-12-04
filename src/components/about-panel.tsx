@@ -9,6 +9,32 @@ import Bar from "./bar"
 const AboutPanel = () => {
   return (
     <Grid container spacing={3} style={{ minHeight: 500 }}>
+      <Grid
+        item={true}
+        xs={12}
+        sm={6}
+        container
+        direction="column"
+        justify="center"
+        alignItems="flex-start"
+        style={{ paddingLeft: 40, paddingRight: 40 }}
+      >
+        <Typography variant="h4" color="inherit">
+          Let Us Help Your Patients
+        </Typography>
+        <Bar />
+        <Typography
+          variant="subtitle1"
+          style={{ marginBottom: 30, marginTop: 20 }}
+        >
+          Telecare-USA was formed to help physicians, nurse practitioners and
+          physician assistants avoid having to spend tens of thousands of
+          dollars to get started with remote physiologic monitoring.
+        </Typography>
+        <Button variant="outlined" color="primary" size="large">
+          About Us
+        </Button>
+      </Grid>
       <Hidden xsDown>
         <Grid
           item={true}
@@ -27,32 +53,6 @@ const AboutPanel = () => {
           </div>
         </Grid>
       </Hidden>
-      <Grid
-        item={true}
-        xs={12}
-        sm={6}
-        container
-        direction="column"
-        justify="center"
-        alignItems="flex-start"
-        style={{ paddingLeft: 40, paddingRight: 40 }}
-      >
-        <Typography variant="h4" color="inherit">
-          Leading healthcare providers
-        </Typography>
-        <Bar />
-        <Typography
-          variant="subtitle1"
-          style={{ marginBottom: 30, marginTop: 20 }}
-        >
-          We provide progressive, and affordable healthcare, accessible on
-          mobile and online for everyone. To us, it’s not just work. We take
-          pride in the solutions we deliver
-        </Typography>
-        <Button variant="outlined" color="primary" size="large">
-          Learn More
-        </Button>
-      </Grid>
     </Grid>
   )
 }

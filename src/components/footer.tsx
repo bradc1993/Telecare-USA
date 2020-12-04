@@ -11,38 +11,38 @@ const Footer = () => {
     {
       title: "Company",
       items: [
-        { displayText: "About", url: "" },
+        { displayText: "Home", url: "" },
         {
-          displayText: "Testimonials",
+          displayText: "Services",
           url: "",
         },
-        { displayText: "Find a Doctor", url: "" },
-        { displayText: "Apps", url: "" },
+        { displayText: "About Us", url: "" },
+        { displayText: "Contact", url: "" },
       ],
     },
-    {
-      title: "Region",
-      items: [
-        { displayText: "India", url: "" },
-        { displayText: "Indonesia", url: "" },
-        { displayText: "Singapore", url: "" },
-        { displayText: "Canada", url: "" },
-      ],
-    },
-    {
-      title: "Help",
-      items: [
-        { displayText: "Help Center", url: "" },
-        { displayText: "Contact Support", url: "" },
-        { displayText: "Instructions", url: "" },
-        { displayText: "How it works", url: "" },
-      ],
-    },
+    // {
+    //   title: "Region",
+    //   items: [
+    //     { displayText: "India", url: "" },
+    //     { displayText: "Indonesia", url: "" },
+    //     { displayText: "Singapore", url: "" },
+    //     { displayText: "Canada", url: "" },
+    //   ],
+    // },
+    // {
+    //   title: "Help",
+    //   items: [
+    //     { displayText: "Help Center", url: "" },
+    //     { displayText: "Contact Support", url: "" },
+    //     { displayText: "Instructions", url: "" },
+    //     { displayText: "How it works", url: "" },
+    //   ],
+    // },
   ]
 
   return (
     <React.Fragment>
-      <Box className="footer">
+      {/* <Box className="footer">
         <Grid
           container
           style={{
@@ -62,14 +62,14 @@ const Footer = () => {
             style={{ padding: 10 }}
           >
             <Typography variant="h4" color="inherit">
-              vHealth
+              TELECARE-USA
             </Typography>
             <Typography variant="body2" color="inherit">
-              vHealth provides progressive, and affordable healthcare,
-              accessible on mobile and online for everyone
+              Telecare-USA helps improve patient compliance and reduce
+              healthcare costs through accountability.
             </Typography>
             <Typography variant="body2" color="inherit">
-              ©vHealth PTY LTD 2020. All rights reserved
+              ©TELECARE-USA, LLC 2018. All rights reserved.
             </Typography>
           </Grid>
 
@@ -78,7 +78,7 @@ const Footer = () => {
               <Grid
                 item
                 xs={12}
-                sm={2}
+                sm={6}
                 container
                 direction="column"
                 justify="space-evenly"
@@ -96,7 +96,7 @@ const Footer = () => {
             ))}
           </Hidden>
         </Grid>
-      </Box>
+      </Box> */}
       <Box className="attribution">
         <Grid
           container
@@ -112,23 +112,16 @@ const Footer = () => {
           alignItems="center"
         >
           <Typography variant="body2" color="inherit">
+            ©TELECARE-USA, LLC 2018. All rights reserved.
+          </Typography>
+          <Typography variant="body2" color="inherit">
             Created by{" "}
             <a
-              href="https://shantanudeshmukh.com/"
+              href="https://bradc.art/"
               target="_blank"
               style={{ color: "#FFF" }}
             >
-              Shantanu Deshmukh
-            </a>
-          </Typography>
-          <Typography variant="body2" color="inherit">
-            Designed by
-            <a
-              href="https://dribbble.com/slabdsgn"
-              target="_blank"
-              style={{ color: "#FFF", margin: 5 }}
-            >
-              SLAB Design Studio
+              Brad Carter
             </a>
           </Typography>
         </Grid>
