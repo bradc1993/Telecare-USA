@@ -1,3 +1,1 @@
-<h1 align="center">
-  Telecare-USA Mockup
-</h1>
+Telecare-USA mockup
